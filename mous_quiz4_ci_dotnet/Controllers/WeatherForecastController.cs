@@ -29,5 +29,11 @@ namespace mous_quiz4_ci_dotnet.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("test")]
+        public ActionResult<string> Test()
+        {
+            return "Database access has already been done on April 6, 2026 by Moustafa Fadlalla";
+        }
     }
 }
