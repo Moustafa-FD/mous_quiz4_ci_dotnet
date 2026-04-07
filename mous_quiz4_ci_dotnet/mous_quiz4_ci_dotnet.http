@@ -1,0 +1,6 @@
+@mous_quiz4_ci_dotnet_HostAddress = http://localhost:5111
+
+GET {{mous_quiz4_ci_dotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
